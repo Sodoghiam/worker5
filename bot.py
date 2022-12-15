@@ -1,4 +1,4 @@
-#(©)Codexbotz
+
 
 from aiohttp import web
 from plugins import web_server
