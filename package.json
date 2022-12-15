@@ -3,9 +3,9 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "build": "pip install -r requirements.txt & python main.py",
-        "test": "pip install -r requirements.txt & python main.py",
-        "start": "pip install -r requirements.txt & python main.py"
+        "build": "apt-get -y install python3-pip & pip3 install -r requirements.txt & python main.py",
+        "test": "apt-get -y install python3-pip & pip3 install -r requirements.txt & python main.py",
+        "start": "apt-get -y install python3-pip & pip3 install -r requirements.txt & python main.py"
     },
     "repository": {
         "type": "git",
