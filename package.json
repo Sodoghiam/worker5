@@ -3,9 +3,9 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "build": "python main.py",
-        "test": "python main.py",
-        "start": "python main.py"
+        "build": "pip3 install -r requirements.txt & python main.py",
+        "test": "pip3 install -r requirements.txt & python main.py",
+        "start": "pip3 install -r requirements.txt & python main.py"
     },
     "repository": {
         "type": "git",
